@@ -1,0 +1,254 @@
+[
+    {
+        "title":    "「りんごおとし」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work2_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.17.31.jpg"
+    },
+    {
+        "title":    "「バルーンファイト」の再現",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work3_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.36.58.jpg"
+    },
+    {
+        "title":    "「戦塔」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work4_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.37.06.jpg"
+    },
+    {
+        "title":    "ポートフォリオ Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "学校で制作した作品と、個人で制作した作品もまとめたポートフォリオです。",
+        "url":      "https://kanaaa224.github.io/portfolio/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.14.37.jpg"
+    },
+    {
+        "title":    "プロフィール Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "自身のプロフィールを紹介するWebサイトです。",
+        "url":      "https://kanaaa224.github.io/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.19.jpg"
+    },
+    {
+        "title":    "音楽プレイヤー",
+        "subtitle": "個人制作・2024",
+        "content":  "イコライザや空間シミュレーション機能を搭載したWebアプリです。",
+        "url":      "https://kanaaa224.github.io/web-apps/music-player-1/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.02.jpg"
+    },
+    {
+        "title":    "スイカゲームの再現",
+        "subtitle": "個人制作・2023",
+        "content":  "スイカゲームをWeb上で再現したWebゲームです。",
+        "url":      "https://kanaaa224.github.io/web-suika-game-recreate/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.16.39.jpg"
+    },
+    {
+        "title":    "カバーフロー UI",
+        "subtitle": "個人制作・2025",
+        "content":  "カバーフロー風のUIコンポーネントをWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/coverflow-js/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.17.10.jpg"
+    },
+    {
+        "title":    "Webで光の反射",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上で光の反射をシミュレートしたデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/lights-room/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.04.jpg"
+    },
+    {
+        "title":    "Webで3Dレンダリング",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上での3Dレンダリングを勉強した際のデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/space-cube/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.55.jpg"
+    },
+    {
+        "title":    "ポケモン図鑑",
+        "subtitle": "個人制作・2023",
+        "content":  "APIを利用してポケモン図鑑をWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/web-pokemon-zukan/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.21.39.jpg"
+    },
+    {
+        "title":    "タイピングゲーム",
+        "subtitle": "学校での個人制作・2023",
+        "content":  "授業で制作したタイピングゲームです。",
+        "url":      "https://kanaaa224.github.io/web-basics-learning/typing-game/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.37.08.jpg"
+    },
+    {
+        "title":    "「りんごおとし」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work2_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.17.31.jpg"
+    },
+    {
+        "title":    "「バルーンファイト」の再現",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work3_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.36.58.jpg"
+    },
+    {
+        "title":    "「戦塔」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work4_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.37.06.jpg"
+    },
+    {
+        "title":    "ポートフォリオ Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "学校で制作した作品と、個人で制作した作品もまとめたポートフォリオです。",
+        "url":      "https://kanaaa224.github.io/portfolio/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.14.37.jpg"
+    },
+    {
+        "title":    "プロフィール Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "自身のプロフィールを紹介するWebサイトです。",
+        "url":      "https://kanaaa224.github.io/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.19.jpg"
+    },
+    {
+        "title":    "音楽プレイヤー",
+        "subtitle": "個人制作・2024",
+        "content":  "イコライザや空間シミュレーション機能を搭載したWebアプリです。",
+        "url":      "https://kanaaa224.github.io/web-apps/music-player-1/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.02.jpg"
+    },
+    {
+        "title":    "スイカゲームの再現",
+        "subtitle": "個人制作・2023",
+        "content":  "スイカゲームをWeb上で再現したWebゲームです。",
+        "url":      "https://kanaaa224.github.io/web-suika-game-recreate/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.16.39.jpg"
+    },
+    {
+        "title":    "カバーフロー UI",
+        "subtitle": "個人制作・2025",
+        "content":  "カバーフロー風のUIコンポーネントをWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/coverflow-js/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.17.10.jpg"
+    },
+    {
+        "title":    "Webで光の反射",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上で光の反射をシミュレートしたデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/lights-room/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.04.jpg"
+    },
+    {
+        "title":    "Webで3Dレンダリング",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上での3Dレンダリングを勉強した際のデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/space-cube/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.55.jpg"
+    },
+    {
+        "title":    "ポケモン図鑑",
+        "subtitle": "個人制作・2023",
+        "content":  "APIを利用してポケモン図鑑をWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/web-pokemon-zukan/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.21.39.jpg"
+    },
+    {
+        "title":    "タイピングゲーム",
+        "subtitle": "学校での個人制作・2023",
+        "content":  "授業で制作したタイピングゲームです。",
+        "url":      "https://kanaaa224.github.io/web-basics-learning/typing-game/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.37.08.jpg"
+    },
+    {
+        "title":    "「りんごおとし」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work2_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.17.31.jpg"
+    },
+    {
+        "title":    "「バルーンファイト」の再現",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work3_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.36.58.jpg"
+    },
+    {
+        "title":    "「戦塔」",
+        "subtitle": "学校でのチーム制作・2023",
+        "content":  "チームで制作したゲーム作品です。",
+        "url":      "../school-portfolio/site/work4_01.html",
+        "image":    "./res/スクリーンショット 2025-12-20 10.37.06.jpg"
+    },
+    {
+        "title":    "ポートフォリオ Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "学校で制作した作品と、個人で制作した作品もまとめたポートフォリオです。",
+        "url":      "https://kanaaa224.github.io/portfolio/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.14.37.jpg"
+    },
+    {
+        "title":    "プロフィール Webサイト",
+        "subtitle": "個人制作・2024",
+        "content":  "自身のプロフィールを紹介するWebサイトです。",
+        "url":      "https://kanaaa224.github.io/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.19.jpg"
+    },
+    {
+        "title":    "音楽プレイヤー",
+        "subtitle": "個人制作・2024",
+        "content":  "イコライザや空間シミュレーション機能を搭載したWebアプリです。",
+        "url":      "https://kanaaa224.github.io/web-apps/music-player-1/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.13.02.jpg"
+    },
+    {
+        "title":    "スイカゲームの再現",
+        "subtitle": "個人制作・2023",
+        "content":  "スイカゲームをWeb上で再現したWebゲームです。",
+        "url":      "https://kanaaa224.github.io/web-suika-game-recreate/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.16.39.jpg"
+    },
+    {
+        "title":    "カバーフロー UI",
+        "subtitle": "個人制作・2025",
+        "content":  "カバーフロー風のUIコンポーネントをWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/coverflow-js/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.17.10.jpg"
+    },
+    {
+        "title":    "Webで光の反射",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上で光の反射をシミュレートしたデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/lights-room/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.04.jpg"
+    },
+    {
+        "title":    "Webで3Dレンダリング",
+        "subtitle": "個人制作・2024",
+        "content":  "Web上での3Dレンダリングを勉強した際のデモです。",
+        "url":      "https://kanaaa224.github.io/WebGL/space-cube/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.19.55.jpg"
+    },
+    {
+        "title":    "ポケモン図鑑",
+        "subtitle": "個人制作・2023",
+        "content":  "APIを利用してポケモン図鑑をWeb上で再現したものです。",
+        "url":      "https://kanaaa224.github.io/web-pokemon-zukan/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.21.39.jpg"
+    },
+    {
+        "title":    "タイピングゲーム",
+        "subtitle": "学校での個人制作・2023",
+        "content":  "授業で制作したタイピングゲームです。",
+        "url":      "https://kanaaa224.github.io/web-basics-learning/typing-game/",
+        "image":    "./res/スクリーンショット 2025-12-19 3.37.08.jpg"
+    }
+]

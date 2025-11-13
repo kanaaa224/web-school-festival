@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>Kanato Shimbukuro | Portfolio - 秋季制作</title>
+        <meta name="theme-color" content="#a549bc">
+
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/work.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/main.js"></script>
+        <script src="../js/work.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="button" onclick="main.header.logo();">SHIMABUKURO KANATO<div class="thin">Portfolio</div></h1>
+            <nav>
+                <ul>
+                    <li><h2 class="button" onclick="main.header.profile();">Profile</h2></li>
+                    <li><h2 class="button" onclick="main.header.work();">Work</h2></li>
+                    <li><h2 class="button" onclick="main.header.skills();">Skills</h2></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="top-carousel">
+                <div class="slick carousel">
+                    <div>
+                        <div class="item"><img src="../images/work4_01/carousel/1.png" width="640px" height="480px"></div>
+                    </div>
+                    <div>
+                        <div class="item"><img src="../images/work4_01/carousel/2.png" width="640px" height="480px"></div>
+                    </div>
+                    <div>
+                        <div class="item"><img src="../images/work4_01/carousel/3.png" width="640px" height="480px"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main" id="main">
+                <h1>作品について</h1>
+                <section>
+                    <h2>作品概要</h2>
+                    <p>
+                        このゲームは、クラスメイトでチームを組んで開発を行う「チーム制作」の２年秋季制作で作ったものです。<br>
+                        ステージクリア型のローグライク風アクションゲームとなっており、プレイヤーは迫りくる大量のモンスターを倒し、時には逃げ回ったり回避して、体力が尽きずに最後のステージまで目指す内容になっています。<br>
+                        私はこのゲームの主にゲームシーケンス、入力処理、FPS処理などのメイン系、ゲームUI、敵の開発を担当しました。<br>
+                        また、サポートで他の部分にも一部関わっています。
+                    </p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work4_01/title.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work4_01/title.png>');">
+                        <img class="button" src="../images/work4_01/stage63.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work4_01/stage63.png>');">
+                    </div>
+                </section>
+                <section>
+                    <h2>作品概要２</h2>
+                    <p>
+                        ・ゲームジャンル<br>ローグライク風アクション<br><br>
+                        ・開発環境・使用言語<br>Visual Studio 2022 / DxLib ・ C++<br><br>
+                        ・制作期間<br>約２か月<br><br>
+                        ・制作人数<br>５名<br><br>
+                        ・担当箇所<br>ゲームシーケンス、入力処理、FPS処理などのメイン系、ゲームUI、敵<br><br>
+                        ・プレイ動画URL<br><a href="https://youtu.be/pSPTGp7vu4E" target="_blank">https://youtu.be/pSPTGp7vu4E</a>
+                    </p>
+                </section>
+                <section>
+                    <h2>制作背景</h2>
+                    <p>
+                        プログラミングなどのスキルアップを目的にチームみんなで納得いくゲームを作り、「福岡ゲームコンテストGFF AWARD」に応募&入賞を目指し、先生方に「良い」と言わせる目標で制作しました。
+                    </p>
+                </section>
+                <section>
+                    <h2>挑戦したこと</h2>
+                    <p>
+                        ・機能追加＆バグ報告を効率的に行うため、GitHubの機能であるプルリクエストを活用<br>
+                        ・GitHub上で他の人が書いたコードを見てリバースエンジニアリング<br>
+                        ・積極的に担当外のタスクもサポート
+                    </p>
+                </section>
+                <section>
+                    <h2>学んだこと</h2>
+                    <p>
+                        敵の実装について自分は担当外ではありましたが、どうすれば出来るか一緒に考えなんとか全部の敵を実装することができました。<br>
+                        また、ゲームシーケンスの設計についても悩みましたが、どうすれば最善かを必死に考え、なんとか間に合わせることができました。<br>
+                        また、何回も実装が間に合わず、磨き上げに時間を割くことがあまりできなかったため、改めて納期に間に合わせる事の大切さを意識するようになりました。
+                    </p>
+                </section>
+                <div class="split_bar"></div>
+                <h1>こだわった（工夫）したところ</h1>
+                <section>
+                    <h2>工夫１</h2>
+                    <p>
+                        アニメーションと演出を散りばめ、ゲームに雰囲気を持たせました。<br>
+                        アニメーションと演出でゲームの雰囲気を崩さないようにしました。
+                    </p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work4_01/stage63.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work4_01/stage63.png>');">
+                        <img class="button" src="../images/work4_01/start2.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work4_01/start2.png>');">
+                    </div>
+                    <p>
+                        ビット調フォント導入や、全体マップからステージを選択し、戦闘ステージに遷移すると最初にテキストと黒い背景のバーをアニメーションで表示したり、ゲームUIや体力ゲージをアニメーションさせたりと、ゲームの雰囲気を崩さないようにしました。
+                    </p>
+                </section>
+                <section>
+                    <h2>工夫２</h2>
+                    <p>
+                        カスタマイズ性の高い設計にしました。<br>
+                        急な仕様変更にも耐えられる設計にしました。
+                    </p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work4_01/source_ui.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work4_01/source_ui.png>');">
+                        <img class="button" src="../images/work4_01/source_gamemain_ui.png" width="25%" height="25%" onclick="main.modal.install('<img src=../images/work4_01/source_gamemain_ui.png>');">
+                        <img class="button" src="../images/work4_01/clear.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work4_01/clear.png>');">
+                    </div>
+                    <p>
+                        各ステージの敵スポーン数を配列で管理したり、テキストや文字列を変数・引数で管理したりと、急な仕様変更にも耐えられる設計にしました。
+                    </p>
+                </section>
+                <section>
+                    <h2>工夫３</h2>
+                    <p>
+                        誰が見ても理解できるソースコードの記述<br>
+                        誰が見ても見やすいことを意識したコーディングを実施しました。
+                    </p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work4_01/source_gamemain_ui.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work4_01/source_gamemain_ui.png>');">
+                    </div>
+                    <p>
+                        変数・関数・引数の名前統一や、インデント揃えやコメントを積極的に記述し、チームの誰が見ても理解しやすいコーディングを行い、後から機能を追加しやすいような設計も行いました。
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <h1>© 2023 Kanato Shimabukuro. All rights reserved.</h1>
+        </footer>
+    </body>
+</html>

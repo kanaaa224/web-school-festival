@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>Kanato Shimbukuro | Portfolio - りんごおとし</title>
+        <meta name="theme-color" content="#a549bc">
+
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/work.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/main.js"></script>
+        <script src="../js/work.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="button" onclick="main.header.logo();">SHIMABUKURO KANATO<div class="thin">Portfolio</div></h1>
+            <nav>
+                <ul>
+                    <li><h2 class="button" onclick="main.header.profile();">Profile</h2></li>
+                    <li><h2 class="button" onclick="main.header.work();">Work</h2></li>
+                    <li><h2 class="button" onclick="main.header.skills();">Skills</h2></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="top-carousel">
+                <div class="slick carousel">
+                    <div>
+                        <div class="item"><img src="../images/work2_01/carousel/1.png" width="640px" height="480px"></div>
+                    </div>
+                    <div>
+                        <div class="item"><img src="../images/work2_01/carousel/2.png" width="640px" height="480px"></div>
+                    </div>
+                    <div>
+                        <div class="item"><img src="../images/work2_01/carousel/3.png" width="640px" height="480px"></div>
+                    </div>
+                </div>
+                <!-- <div class="title">
+                    <h1>りんごおとし を紹介します。</h1>
+                    <h2>2年 夏季制作で制作</h2>
+                </div> -->
+            </div>
+            <div class="main" id="main">
+                <h1>作品について</h1>
+                <section>
+                    <h2>作品概要</h2>
+                    <p>このゲームは、クラスメイトでチームを組んで開発を行う「チーム制作」の２年夏季制作１で作ったものです。<br>プレイヤーをコントローラーで操作し左右に移動させて、上からランダムに落ちてくるリンゴを出来るだけ拾うという内容になっています。<br>私はこのゲームでタイトル画面、ヘルプ画面、ランキング処理周り全般、画像・音声、フォント等を再生・管理するリソースマネージャー、ゲームシーケンスの開発を担当しました。<br>また、サポートで他の部分にも一部関わっています。<br></p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work2_01/game_title.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work2_01/game_title.png>');">
+                        <img class="button" src="../images/work2_01/game_play.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work2_01/game_play.png>');">
+                    </div>
+                </section>
+                <section>
+                    <h2>作品概要２</h2>
+                    <p>
+                        ・ゲームジャンル<br>アクションゲーム<br><br>
+                        ・開発環境・使用言語<br>Visual Studio 2022 / DxLib ・ C++<br><br>
+                        ・制作期間<br>約２か月<br><br>
+                        ・制作人数<br>５名<br><br>
+                        ・担当箇所<br>タイトル画面、ヘルプ画面、ランキング処理周り全般、画像・音声、フォント等を再生・管理するリソースマネージャー、ゲームシーケンス<br><br>
+                        ・プレイ動画URL<br><a href="https://www.youtube.com/watch?v=DPiVisJdpqk" target="_blank">https://www.youtube.com/watch?v=DPiVisJdpqk</a>
+                    </p>
+                </section>
+                <section>
+                    <h2>制作背景</h2>
+                    <p>授業でプログラミングを教わっている平良先生から「チーム開発に慣れる」「バージョン管理、タスク管理の復習」「仕様書どおりのゲームを制作する」という目的で、このゲームを制作することになり、行いました。</p>
+                </section>
+                <section>
+                    <h2>挑戦したこと</h2>
+                    <p>周りとしっかりコミュニケーションをとること、授業外で得た知識（変数名・関数名の決め方のコツ、読みやすいソースを書くコツ、趣味で行っているWeb開発の応用など）を実践すること、サポートを積極的に行うことを第一に制作に取り組みました。</p>
+                </section>
+                <section>
+                    <h2>学んだこと</h2>
+                    <p>自分一人で何かを開発しようと作業をすると、変数名や関数名、処理の流れを自由に決められるので、開発は一人でも十分可能だと思っていました。<br>しかし、複数人で協力して作業する場合コミュニケーションはしっかり取らなければならないが、後者の方が圧倒的に効率が良く、あっという間に完成してしまうことに気付きました。<br>さらに、完成した際の喜びを共有できるということもわかりました。<br><br>また、バージョン管理についても学んだことがあり、趣味で行っているWeb開発でGitは既に利用していたため、Gitの基本的な使い方は十分理解しているつもりでしたが、<br>初めてのチーム制作で、複数人でのGitによるバージョン管理も初めてだったので、文字コードが原因で日本語のコメントの部分が全て文字化けしたり、ブランチが死亡することもありました。<br><br>ですが、そんな時こそ逃げないでしっかり向き合う事で、解決する方法を知る事が出来たり、これから起きそうな問題をなんとなく予測できたりと、学べたことも十分にありました。</p>
+                </section>
+                <div class="split_bar"></div>
+                <h1>こだわった（工夫）したところ</h1>
+                <section>
+                    <h2>工夫１</h2>
+                    <p>タイトル画面・ヘルプ画面の実装について、他のグループでは画面をPowerPointなどで一枚の画像として作り、それを描画することで実装していたチームもありましたが、自分は背景、文字や画像など全ての要素を実際に配置して描画させている事です。</p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work2_01/title1.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work2_01/title1.png>');">
+                        <img class="button" src="../images/work2_01/rni1.png" width="40%" height="40%" onclick="main.modal.install('<img src=../images/work2_01/rni1.png>');">
+                    </div>
+                    <p>
+                        画面を一枚の画像で描画しているわけではないので、使用データの容量を抑えることができ、画質劣化もありません。<br><br>
+                        ですが、画面を一枚の画像ではなく、要素（文字・画像）を組み合わせて描画する方法はデメリットもあり、それは一枚の画像で描画するよりも制作に時間が掛かることです。<br><br>
+                        要素を配置させるには、調整->ビルド->確認、というようにその都度繰り返す必要がありますが、PowerPointなどを使って一つの画像として仕上げるとビルドの手間も無いのですぐに完成できます。<br><br>
+                        ですが、自分は一つの画面で文字や画像を配置させる際、その要素にキーボードのWASDで上下左右に移動させるデバッグ用の処理、その要素の座標を画面に表示させるデバッグ用の処理を追加することで対処できる方法を思い付き、それで一気に完成させることができました。
+                    </p>
+                </section>
+                <section>
+                    <h2>工夫２</h2>
+                    <p>画像や音声、フォントデータを効率的に管理するため、リソースマネージャーを開発しました。<br>これにより、ゲームで使用する画像や音声、フォントデータを一か所で一括管理しているので、無駄なメモリ消費を大幅に減らすことができました。</p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work2_01/rl1.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work2_01/rl1.png>');">
+                        <img class="button" src="../images/work2_01/rl2.png" width="25%" height="25%" onclick="main.modal.install('<img src=../images/work2_01/rl2.png>');">
+                        <img class="button" src="../images/work2_01/rl3.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work2_01/rl3.png>');">
+                    </div>
+                    <p>
+                        通常、画像や音声、フォントは画面ごとで読み込んで使うのですが、その方法はシーンマネージャーを採用していれば現実的な実装となりますが、それが無い場合は画面遷移ごとで読み込んだデータを削除しなければならないですし、メモリがいっぱいになることもありました。<br>
+                        そこで、ゲームが起動した際に各々で使う画像や音声、フォントのデータを一括で読み込み、使う際は画面からその関数で予め読み込んだリソースのアドレスを貰って使う方法にすることで解決できました。
+                    </p>
+                </section>
+                <section>
+                    <h2>工夫３</h2>
+                    <p>終盤、タイトル画面、ヘルプ画面、ランキングの名前入力画面でクラスを採用できたこと。</p>
+                    <div class="image_area">
+                        <img class="button" src="../images/work2_01/rni2.png" width="30%" height="30%" onclick="main.modal.install('<img src=../images/work2_01/rni2.png>');">
+                    </div>
+                    <p>
+                        制作の終盤、タイトル画面、ヘルプ画面、ランキングの名前入力画面で当時教わったばっかりだったクラスを導入しました。<br>
+                        クラス化したことで何か大きな機能が追加された、といった事はありませんが、クラスの知識を深められ、趣味のWeb開発でもクラスを使うことでキレイにソースを書けるようになったり、次回の制作からすんなりクラスを使える様になりました。
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <h1>© 2023 Kanato Shimabukuro. All rights reserved.</h1>
+        </footer>
+    </body>
+</html>
