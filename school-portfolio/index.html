@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,viewport-fit=cover,user-scalable=no">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+        <link rel="icon" type="image/png" href="https://github.com/kanaaa224.png">
+        <link rel="apple-touch-icon"      href="https://github.com/kanaaa224.png">
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            html {
+                touch-action: manipulation;
+
+                scroll-behavior: smooth;
+
+                @media (width < 600px) {
+                    font-size: 14px !important;
+                }
+            }
+
+            body {
+                font-family: sans-serif;
+
+                user-select: none;
+
+                img {
+                    pointer-events: none;
+                }
+
+                @media (prefers-color-scheme: dark) {
+                    background-color: #222; color: #fff;
+                }
+            }
+
+            /* ---------------------------------------------------------------------------------------------- */
+
+            main {
+                display: flex; flex-direction: column;
+
+                p, a {
+                    margin: 1rem 1rem 0 1rem;
+                }
+
+                a {
+                    padding: 1rem 1.5rem;
+
+                    background-color: #0000000d; color: inherit;
+
+                    @media (prefers-color-scheme: dark) {
+                        background-color: #ffffff0d;
+                    }
+
+                    border-radius: 0.5rem;
+                }
+            }
+
+            footer {
+                position: fixed;
+
+                right: 0; bottom: 0; left: 0;
+
+                width: fit-content;
+
+                margin: 0 auto;
+
+                opacity: 0.5;
+
+                p {
+                    margin: 0 0 0.75rem 0;
+
+                    font-size: 0.75rem;
+                }
+
+                a {
+                    color: inherit;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <p>学校で制作した作品</p>
+            <a href="./site/work2_01.html">2023 | りんごおとし</a>
+            <a href="./site/work3_01.html">2023 | 「バルーンファイト」の再現</a>
+            <a href="./site/work4_01.html">2023 | 「戦塔」</a>
+        </main>
+        <footer>
+            <p>© 2023 <a href="https://kanaaa224.github.io" target="_blank">kanaaa224</a>. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
