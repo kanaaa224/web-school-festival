@@ -1,0 +1,165 @@
+/*
+    (c) 2023 kanaaa224. All rights reserved.
+*/
+
+@import 'https://cdn.jsdelivr.net/gh/kanaaa224/web-common@master/web-app-sources/global-layout-1-with-style-1.css';
+@import 'https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap';
+
+:root {
+    --body-background: #222;
+    --body-color:      #fff;
+
+    --main-background:                 transparent;
+    --main-article-section-background: #ffffff0d;
+}
+
+html {
+    body {
+        main {
+            block-size: 100vh;
+
+            padding-block-end: var(--header-block-size);
+
+            article {
+                block-size: 95%;
+
+                justify-content: space-between;
+
+                section {
+                    background: transparent;
+                }
+
+                section.A {
+                    h1 {
+                        font: 1.5rem 'Dela Gothic One', sans-serif;
+
+                        opacity: .5;
+                    }
+
+                    p {
+                        font-size: .75rem;
+
+                        opacity: .25;
+                    }
+                }
+
+                section.B {
+                    position: absolute; inset-block-start: 50%; inset-inline-start: 50%;
+
+                    inline-size: 30rem; block-size: 30rem; gap: 0;
+
+                    transform: translate(-50%, calc(-50% + 3.5rem));
+
+                    display: flex; justify-content: flex-end;
+
+                    background: #0000001a;
+
+                    border: solid .25rem #0000000d;
+
+                    @media (width < 1000px) {
+                        inline-size: 80%;
+                    }
+
+                    h1 {
+                        font-size: 1.25rem;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin-block-end: 2.5rem;
+
+                        font-size: .75rem;
+                    }
+
+                    button {
+                        padding: .5rem 1.5rem;
+
+                        background: #00000040;
+
+                        border-radius: inherit;
+
+                        &:hover {
+                            opacity: .75;
+
+                            cursor: pointer;
+                        }
+                    }
+
+                    h1, p, button {
+                        text-align: center;
+                    }
+                }
+
+                section.C {
+                    position: absolute; inset: 0;
+
+                    block-size: 20rem; margin-block: auto;
+
+                    justify-content: center;
+
+                    overflow: hidden;
+                }
+            }
+
+            article.loading {
+                block-size: 80vh;
+
+                justify-content: center; align-items: center;
+
+                section {
+                    padding-inline: 2.5rem;
+
+                    flex-direction: row; align-items: center;
+
+                    background: var(--main-article-section-background);
+                }
+            }
+        }
+
+        dialog {
+            position: fixed; inset: 0;
+
+            display: flex; justify-content: center; align-items: center;
+
+            > div {
+                &:before {
+                    content: '';
+
+                    position: fixed; inset: 0; z-index: -1;
+
+                    background: #00000040;
+
+                    pointer-events: none;
+                }
+
+                iframe {
+                    block-size: 80vh;
+
+                    border-radius: .75rem;
+
+                    background: #fff;
+                }
+
+                p {
+                    position: absolute; inset-inline-start: 10vw; inset-block-start: 6.5vh;
+
+                    font-size: .75rem;
+
+                    opacity: .5;
+
+                    overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+                }
+
+                iframe, p {
+                    inline-size: 80vw;
+                }
+            }
+        }
+
+        div.background, canvas {
+            position: absolute; inset: 0; z-index: -1;
+
+            inline-size: 100%; block-size: 100%;
+        }
+    }
+}

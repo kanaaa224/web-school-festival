@@ -1,0 +1,11 @@
+{
+    "name": "展示用 ポートフォリオ 2025",
+    "icons": [
+        {
+            "src": "https://github.com/kanaaa224.png",
+            "sizes": "512x512"
+        }
+    ],
+
+    "display": "standalone"
+}
